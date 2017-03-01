@@ -5,10 +5,8 @@ package cn.com.singleton;
  */
 public class SingletonDemo {
     public static void main(String[] args) {
-       Singleton sl = Singleton.getInstance();
-
-       sl.createString();
-
+       StaticSingleton staticSingleton = StaticSingleton.getInstance();
+       staticSingleton.createString();
 
     }
 }
